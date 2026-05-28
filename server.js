@@ -92,7 +92,7 @@ ${order.notes}
 
     res.status(500).json({
       success: false,
-      message: "Server error",
+      message: error.message
     });
   }
 });
